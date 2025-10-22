@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg,#1e90ff,#00c6ff);
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.section h2 {
+  color: #1e90ff;
+  margin-bottom: 30px;
+}
+
+.badge {
+  font-size: 1rem;
+  padding: 0.8em 1.2em;
+}
+
+.edu-card, .project-card, .cert-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.edu-card:hover, .project-card:hover, .cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
